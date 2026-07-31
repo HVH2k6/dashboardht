@@ -117,6 +117,16 @@ export default function AdminLayout() {
               label: 'Đơn đăng ký cửa hàng',
             } : null,
             user?.role?.name === 'Admin' ? {
+              key: '/admin/shops',
+              icon: <ShopOutlined />,
+              label: 'Quản lý Cửa hàng',
+            } : null,
+            user?.role?.name === 'Admin' ? {
+              key: '/admin/products',
+              icon: <ShoppingOutlined />,
+              label: 'Quản lý Sản phẩm',
+            } : null,
+            user?.role?.name === 'Admin' ? {
               key: '/languages',
               icon: <GlobalOutlined />,
               label: 'Ngôn ngữ',

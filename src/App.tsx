@@ -30,6 +30,8 @@ import CulturalArtEditPage from './pages/CulturalArt/EditPage'
 import AdminReviewPage from './pages/Review'
 import UserPage from './pages/User'
 import BlogPage from './pages/Blog'
+import AdminShopPage from './pages/AdminShop'
+import AdminProductPage from './pages/AdminProduct'
 
 import './App.css'
 
@@ -86,6 +88,10 @@ function App() {
 
         {/* Blogs */}
         <Route path="/blogs" element={<BlogPage />} />
+        
+        {/* Admin Manage Shops and Products */}
+        <Route path="/admin/shops" element={<AdminShopPage />} />
+        <Route path="/admin/products" element={<AdminProductPage />} />
 
       </Route>
     </Routes>
