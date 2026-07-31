@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://hatinhtravel.net/api/:match*"
+    },
+    {
+      "source": "/upload-api/:match*",
+      "destination": "https://anhviafb.com/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://hatinhtraval.net',
+        target: 'https://hatinhtravel.net',
         changeOrigin: true,
       },
       '/upload-api': {
